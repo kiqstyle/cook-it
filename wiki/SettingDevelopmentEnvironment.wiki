@@ -2,6 +2,15 @@
 
 = Setting development environment =
 
+First you'll need the basic development environment. Find a simpole tutorial on Android developers guide documentation: http://developer.android.com/sdk/installing.html#Installing
+
+Basically you'll need three things:
+ # eclipse IDE
+ # Android SDK
+ # ADT plugin for eclipse (we currently use version 12.0.0.v201106281929-138431)
+
+Now set the environment and connect to SVN repostiory.
+
  # File->New->Other->Android->Android Project
  # Project name: CookIt
  # Build targe: Create new AVD: Android 2.3.3, API Level: 10
@@ -9,7 +18,7 @@
 
 Other fields just leave with default values.
 
- # Clicik Next
+ # Click Next
  # Do not create test project, click Finish
  # Click RMB on new project->Team->Share Projects
  # Select 'Create new repository location', click Next
