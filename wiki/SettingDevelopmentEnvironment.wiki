@@ -1,0 +1,22 @@
+#summary One-sentence summary of this page.
+
+= Setting development environment =
+
+ # File->New->Other->Android->Android Project
+ # Project name: CookIt
+ # Build targe: Create new AVD: Android 2.3.3, API Level: 10
+ # Package name: com.cookit
+
+Other fields just leave with default values.
+
+ # Clicik Next
+ # Do not create test project, click Finish
+ # Click RMB on new project->Team->Share Projects
+ # Select 'Create new repository location', click Next
+ # URL: https://cook-it.googlecode.com/svn/ (http://cook-it.googlecode.com/svn/ to read only)
+ # User: your-email-address
+ # Password: Encrypted password from project page, click Next
+ # URL: https://cook-it.googlecode.com/svn/trunk (http://cook-it.googlecode.com/svn/trunk for read only)
+ # Click Finish
+ # On warning message confirm to go forward
+ # The content of the repository is different from your newly created project, so do not commit anything now! (click 'Cancel' when the commit dialog appears)
