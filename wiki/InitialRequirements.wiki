@@ -1,0 +1,8 @@
+#This page describes initial requirements for the first alpha release.
+
+= Requirements for 0.1 =
+
+Requirements:
+* Create an initial GUI Main activity
+* Add at least one recipe
+* Create text-input UI to pass available product in the fridge
