@@ -2,18 +2,18 @@
 
 = Setting development environment =
 
-First you'll need the basic development environment. Find a simpole tutorial on Android developers guide documentation: http://developer.android.com/sdk/installing.html#Installing
+First you'll need the basic development environment. Find a simple tutorial on Android developers guide documentation: http://developer.android.com/sdk/installing.html#Installing
 
 Basically you'll need three things:
  # eclipse IDE
  # Android SDK
  # ADT plugin for eclipse (we currently use version 12.0.0.v201106281929-138431)
 
-Now set the environment and connect to SVN repostiory.
+Now set the environment and connect to SVN repository.
 
  # File->New->Other->Android->Android Project
  # Project name: CookIt
- # Build targe: Create new AVD: Android 2.3.3, API Level: 10
+ # Build target: Create new AVD: Android 2.3.3, API Level: 10
  # Package name: com.cookit
 
 Other fields just leave with default values.
@@ -34,3 +34,9 @@ Other fields just leave with default values.
 
 A nice and platform-independent SQLite database client:
 https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/
+
+You can use
+{{{
+trunk/data/test/example.db
+}}}
+to play with it.
