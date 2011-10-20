@@ -11,3 +11,8 @@ Requirements:
  * Create basic ingredients set
  * Make an activity to list all recipes
  * Create an activity to view details of a recipe
+
+MainActivity proposal
+{{{
+trunk/doc/img/mockMainActivity.jpg
+}}}
