@@ -12,7 +12,7 @@ Requirements:
  * Make an activity to list all recipes
  * Create an activity to view details of a recipe
 
-MainActivity proposal
+!MainActivity proposal
 {{{
 trunk/doc/img/mockMainActivity.jpg
 }}}
