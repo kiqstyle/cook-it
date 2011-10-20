@@ -30,5 +30,7 @@ Other fields just leave with default values.
  # On warning message confirm to go forward
  # The content of the repository is different from your newly created project, so do not commit anything now! (click 'Cancel' when the commit dialog appears)
 
+= Database environment =
+
 A nice and platform-independent SQLite database client:
 https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/
