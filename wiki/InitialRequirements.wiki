@@ -8,3 +8,6 @@ Requirements:
  * Create an initial GUI Main activity
  * Add at least one recipe
  * Create text-input UI to pass available product in the fridge
+ * Create basic ingredients set
+ * Make an activity to list all recipes
+ * Create an activity to view details of a recipe
