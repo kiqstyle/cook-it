@@ -1,5 +1,5 @@
 /*==============================================================*/
-/* DBMS name:      MySQL 5.0                                    */
+/* DBMS name:      SQLite                                       */
 /* Created on:     2011-10-20 20:55:24                          */
 /*==============================================================*/
 
@@ -132,8 +132,8 @@ create table Units
 /* Table: Ingredients                                           */
 /*==============================================================*/
 INSERT INTO "Ingredients" (id, Kin_id, name_en, name_pl, desc_en, desc_pl) VALUES ("1", "1", "", "Jaja", "", "Jaja");
-INSERT INTO "Ingredients" (id, Kin_id, name_en, name_pl, desc_en, desc_pl) VALUES ("2", "1", "", "Mas³o", "", "Mas³o");
-INSERT INTO "Ingredients" (id, Kin_id, name_en, name_pl, desc_en, desc_pl) VALUES ("3", "1", "", "Sól", "", "Sól");
+INSERT INTO "Ingredients" (id, Kin_id, name_en, name_pl, desc_en, desc_pl) VALUES ("2", "1", "", "Masï¿½o", "", "Masï¿½o");
+INSERT INTO "Ingredients" (id, Kin_id, name_en, name_pl, desc_en, desc_pl) VALUES ("3", "1", "", "Sï¿½l", "", "Sï¿½l");
 
 /*==============================================================*/
 /* Table: Kind                                                  */
@@ -150,16 +150,16 @@ INSERT INTO "Quantity" (Uni_id, Ing_id, Rec_id, pos_id, quantity) VALUES ("4", "
 /* Table: Recipe_Type                                           */
 /*==============================================================*/
 INSERT INTO "Recipe_Type" (id, name_en, name_pl, desc_en, desc_pl) VALUES ("1", "", "Zupa", "", "Zupa");
-INSERT INTO "Recipe_Type" (id, name_en, name_pl, desc_en, desc_pl) VALUES ("2", "", "Danie g³ówne", "", "Danie g³ówne");
-INSERT INTO "Recipe_Type" (id, name_en, name_pl, desc_en, desc_pl) VALUES ("3", "", "Surówka", "", "Surówka");
-INSERT INTO "Recipe_Type" (id, name_en, name_pl, desc_en, desc_pl) VALUES ("4", "", "Sa³atka", "", "Sa³atka");
+INSERT INTO "Recipe_Type" (id, name_en, name_pl, desc_en, desc_pl) VALUES ("2", "", "Danie gï¿½ï¿½wne", "", "Danie gï¿½ï¿½wne");
+INSERT INTO "Recipe_Type" (id, name_en, name_pl, desc_en, desc_pl) VALUES ("3", "", "Surï¿½wka", "", "Surï¿½wka");
+INSERT INTO "Recipe_Type" (id, name_en, name_pl, desc_en, desc_pl) VALUES ("4", "", "Saï¿½atka", "", "Saï¿½atka");
 INSERT INTO "Recipe_Type" (id, name_en, name_pl, desc_en, desc_pl) VALUES ("5", "", "Przystawka", "", "Przystawka");
-INSERT INTO "Recipe_Type" (id, name_en, name_pl, desc_en, desc_pl) VALUES ("6", "", "Przek¹ska", "", "Przek¹ska");
+INSERT INTO "Recipe_Type" (id, name_en, name_pl, desc_en, desc_pl) VALUES ("6", "", "Przekï¿½ska", "", "Przekï¿½ska");
 
 /*==============================================================*/
 /* Table: Recipes                                               */
 /*==============================================================*/
-INSERT INTO "Recipes" (id, Rec_id, title_en, title_pl, text_en, text_pl, created) VALUES ("1", "2", "", "Jajecznica", "", "Jaja wybiæ na talerzu i roztrzepaæ, osoliæ do smaku. Na patelni rozgrzaæ ³y¿kê mas³a. Na rozgrzane mas³o wylaæ jaja i mieszaj¹c energicznie a¿ do uzyskania odpowiedniej konsystencji.", "2011-11-12");
+INSERT INTO "Recipes" (id, Rec_id, title_en, title_pl, text_en, text_pl, created) VALUES ("1", "2", "", "Jajecznica", "", "Jaja wybiï¿½ na talerzu i roztrzepaï¿½, osoliï¿½ do smaku. Na patelni rozgrzaï¿½ ï¿½yï¿½kï¿½ masï¿½a. Na rozgrzane masï¿½o wylaï¿½ jaja i mieszajï¿½c energicznie aï¿½ do uzyskania odpowiedniej konsystencji.", "2011-11-12");
 
 /*==============================================================*/
 /* Table: Units                                                 */
@@ -167,4 +167,4 @@ INSERT INTO "Recipes" (id, Rec_id, title_en, title_pl, text_en, text_pl, created
 INSERT INTO "Units" (id, name_en, name_pl, abbreviation_en, abbreviation_pl, desc_en, desc_pl) VALUES ("1", "", "sztuka", "", "szt.", "", "");
 INSERT INTO "Units" (id, name_en, name_pl, abbreviation_en, abbreviation_pl, desc_en, desc_pl) VALUES ("2", "", "kilogram", "", "kg", "", "");
 INSERT INTO "Units" (id, name_en, name_pl, abbreviation_en, abbreviation_pl, desc_en, desc_pl) VALUES ("3", "", "kostka", "", "kostka", "", "");
-INSERT INTO "Units" (id, name_en, name_pl, abbreviation_en, abbreviation_pl, desc_en, desc_pl) VALUES ("4", "", "³y¿ka", "", "³y¿.", "", "");
+INSERT INTO "Units" (id, name_en, name_pl, abbreviation_en, abbreviation_pl, desc_en, desc_pl) VALUES ("4", "", "ï¿½yï¿½ka", "", "ï¿½yï¿½.", "", "");
