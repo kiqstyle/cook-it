@@ -3,9 +3,11 @@
     <string name="welcome_text">Cook It!</string>
     <string name="app_name">CookIt</string>
     <string name="btn_MainActivity_ListAllRecipes">List All Recipes</string>
+    <!--
     <string-array name="array_ListAllRecipesActivity_recipesList">
         <item>Recipe nb 1</item>
         <item>Recipe nb 2</item>
         <item>Recipe nb 3</item>
     </string-array>
+     -->
 </resources>
