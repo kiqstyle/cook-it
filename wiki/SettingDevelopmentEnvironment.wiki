@@ -30,6 +30,9 @@ Other fields just leave with default values.
  # On warning message confirm to go forward
  # The content of the repository is different from your newly created project, so do not commit anything now! (click 'Cancel' when the commit dialog appears)
 
+You can use the google-project-hosting plugin for eclipse to maange the issues right from the development environment. Just install the plugin from update site:
+http://svn.codespot.com/a/eclipselabs.org/projecthosting-connector-for-mylyn/update/
+
 = Database environment =
 
 A nice and platform-independent SQLite database client:
