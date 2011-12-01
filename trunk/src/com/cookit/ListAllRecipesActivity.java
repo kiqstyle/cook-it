@@ -7,7 +7,6 @@ import android.app.ListActivity;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -17,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.cookit.util.db.DatabaseOpenHelper;
+import com.cookit.util.db.Recipes;
 
 public class ListAllRecipesActivity extends ListActivity
 {
@@ -27,8 +27,8 @@ public class ListAllRecipesActivity extends ListActivity
 
         final DatabaseOpenHelper dbHelper = new DatabaseOpenHelper(this.getApplicationContext());
         final SQLiteDatabase db = dbHelper.getReadableDatabase();
-        final Cursor cur = db.query("Recipes",
-                                    new String[]{ "title_pl" },
+        final Cursor cur = db.query(Recipes.TABLE_NAME,
+                                    new String[]{ Recipes.TITLE_PL.toString() },
                                     null, null, null, null, null);
 
         final List<String> recipesList = new ArrayList<String>();
@@ -43,7 +43,6 @@ public class ListAllRecipesActivity extends ListActivity
                 new ArrayAdapter<String>(
                         this,
                         R.layout.listallrecipesitem,
-//                        this.getResources().getStringArray(R.array.array_ListAllRecipesActivity_recipesList)));
                         recipesList.toArray(new String[recipesList.size()])));
 
         ListView lv = this.getListView();
