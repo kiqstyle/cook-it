@@ -1,0 +1,27 @@
+id,Kin_id,name_en,name_pl,desc_en,desc_pl
+1,2,,Cukier,,Cukier
+2,2,,Mąka,,Mąka
+3,2,,Proszek do pieczenia,,Proszek do pieczenia
+4,2,,Drożdże,,Drożdże
+201,3,,Sól,,Sól
+202,3,,Pieprz,,Pieprz
+203,3,,Bazylia,,Bazylia
+204,3,,Oregano,,Oregano
+205,3,,Czosnek,,Czosnek
+206,3,,Kminek,,Kminek
+207,3,,Liść laurowy,,Liść laurowy
+401,4,,Jabłko,,Jabłko
+402,4,,Gruszka,,Gruszka
+403,4,,Banan,,Banan
+404,4,,Winogrono,,Winogrono
+601,5,,Pomidor,,Pomidor
+602,5,,Ogórek,,Ogórek
+603,5,,Cebula,,Cebula
+604,5,,Burak,,Burak
+605,5,,Sałata,,Sałata
+606,5,,Kapusta,,Kapusta
+607,5,,Ziemniak,,Ziemniak
+801,6,,Jajko,,Jajko
+802,6,,Żółtko,,Żółtko
+803,6,,Białko jajka,,Białko jajka
+901,7,,Masło,,Masło
