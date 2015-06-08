@@ -1,0 +1,1 @@
+An application, which helps you make dinner depending on what you will find in your fridge
